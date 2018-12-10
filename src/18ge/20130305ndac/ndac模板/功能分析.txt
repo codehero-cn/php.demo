@@ -1,0 +1,88 @@
+1:5个栏目 ,每个栏目能发文章
+
+2:页面是什么样子?
+画草图,定色调
+
+
+
+3: 从程序员的角度来分析功能
+应该建一个"栏目表"
+有id,栏目名
+
+还有一个--文章表
+
+
+
+
+4:数据库
+create database ndac charset utf8;
+
+#文章表
+create table art (
+id int primary key auto_increment,
+catid int,
+title varchar(30),
+content varchar(2000),
+pubtime int
+)charset utf8;
+
+
+
+#栏目表
+create table category (
+id int primary key auto_increment,
+catname varchar(20)
+)charset utf8;
+
+
+
+1 会议信息
+2 会议主题
+
+新闻信息[会议最新消息]
+会议信息[会议介绍,联系我们,委员会介绍几篇文章]
+资料下载[一些word文档等]
+往届回顾[]
+会议主题
+
+insert into category 
+(catname)
+values 
+('新闻信息'),
+('会议信息'),
+('资料下载'),
+('往届回顾'),
+('会议主题');
+
+
+
+
+
+================网站上线==============
+A记录: 66.147.244.94
+
+ftp:www.fruker.com
+用户名:fruker@@wakdy8.com
+密码:IgN,6H-mEi?~
+
+
+数据库用户名:
+user:wakdyeig_fruker
+pwd:IgN,6H-mEi?~
+db_name:
+wakdyeig_fruker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

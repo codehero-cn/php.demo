@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>发布文章页面</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<style type="text/css">
+textarea {
+    width:600px;
+    height:200px;
+}
+</style>
+</head>
+    <body>
+        <h1>发布文章</h1>
+        <form action="artpub_ok.php" method="POST">
+            <p>文章标题:<input type="text" name="title" /></p>
+            <p>
+                所属栏目:
+                <select name="catid">
+                    <option value="0">--请选择栏目--</option>
+                    <option value="1">新闻信息</option>
+                    <option value="2">会议信息</option>
+                    <option value="3">资料下载</option>
+                    <option value="4">往届回顾</option>
+                    <option value="5">会议主题</option>
+                </select>
+            </p>
+            <p>
+                文章内容:<br />
+                <textarea name="content"></textarea>
+            </p>
+            <p><input type="submit" value="发布" /></p>
+        </form>
+    </body>
+</html>

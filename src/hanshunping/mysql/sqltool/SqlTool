@@ -1,0 +1,30 @@
+	/**
+	要有一个测试数据库
+	韩顺平：91讲 PHP数据库编程③-使用mysql扩展库
+	//PHP编程中，通常是将对数据库的操作，封装成一个工具类  SqlTool
+	//给我一个sql语句就可以被执行
+	 * 
+	 */
+	 
+	 
+	 数据库环境：
+	 1.2	创建一张用户表，供我们使用
+
+create table user1(
+id int primary key auto_increment,
+name varchar(32) not null,
+password varchar(64) not null,
+email varchar(128) not null,
+age tinyint unsigned not null
+)
+
+4.3.1.2	接90讲
+
+预先加入数据(开发中，我们肯定是通过界面操作)
+insert into user1 (name,password,email,age) values ('zs',md5('123456'),'zs@sohu.com',30);
+insert into user1 (name,password,email,age) values ('ls',md5('123456'),'ls@sohu.com',40);
+insert into user1 (name,password,email,age) values ('ww',md5('123456'),'ww@sohu.com',50);
+insert into user1 (name,password,email,age) values ('顺平',md5('123456'),'shunping@sohu.com',50);
+
+
+	 

@@ -1,0 +1,6 @@
+create table msg(
+id int primary key auto_increment,
+title varchar(60),
+name varchar(10),
+content varchar(1000)
+);

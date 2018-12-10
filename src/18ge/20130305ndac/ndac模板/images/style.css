@@ -1,0 +1,55 @@
+/*公共样式*/
+body,form,img{padding:0px;margin:0px;padding:0px;border:0px;font-size:12px;font-family:"宋体",Arial;line-height:18px;}
+body{background:#fff;}
+dl,dd,dt,ul,h1,h2,h3,h4,h5,h6{list-style-position:outside;list-style-type:none;margin:0px;padding:0px;border:0px;}
+a:link,a:visited{text-decoration:none;color:#333333;}
+a:active,a:hover{text-decoration:underline;color:#990099;}
+p {text-indent:2em;margin:10px 0;}
+
+.right {float:right;}
+.clear {clear:both;}
+.ipt-txt {width:120px;}
+.border {border:1px solid #999999;padding:5px;margin-bottom:5px;height:100%;overflow: hidden;}
+.boxtitle {font-size:14px;font-family:"黑体",Arial;font-weight:bold;color:#660066;padding-left:20px;background:url(boxtitle.png) no-repeat;height:34px;}
+	.boxtitle span {color:#999;padding:0 5px;}
+	.boxtitle .more {float:right;margin-right:10px;font-size:12px;font-weight:normal;}
+
+#header {width:900px;margin:0px auto;}
+	#header .banner {width:900px;height:121px;background:url(banner.gif) no-repeat;}
+	#header .menu {width:860px;height:28px;padding:2px 20px;background:#000;}
+	#header .menu ul li {float:left;}
+	#header .menu ul li a {float:left;display:block;padding:5px 20px;font-weight:bold;color:#fff;}
+	#header .menu ul li a:hover {text-decoration:none;color:#990099;background:#ccc;}
+
+#pagebody {width:900px;margin:5px auto;}
+	#pagebody .leftbox {float:left;width:190px;}
+	#pagebody .leftbox .about .more {text-align:right;}
+	#pagebody .leftbox .login input {width:100px;}
+	#pagebody .leftbox .theme ul li {padding-left:26px;background:url(theme.gif) no-repeat 10px 4px;line-height:24px;}
+	
+	#pagebody .rightbox {float:right;width:692px;}
+	#pagebody .rightbox .ad {margin-bottom:5px;}
+	#pagebody .rightbox .ad  ul li {float:left;}
+	#pagebody .rightbox .news {width:690px;}
+	#pagebody .rightbox .news .textnews {width:410px;height:150px;float:left;}
+	#pagebody .rightbox .news .textnews ul li {padding-left:20px;line-height:20px;background:url(news.png) no-repeat 0px 0px;}
+	#pagebody .rightbox .news .textnews ul li span {float:right;color:#ff6600;}
+	#pagebody .rightbox .news .imgnews {float:left;text-align:center;margin:0 5px;}
+	#pagebody .rightbox .news .imgnews img {border:2px solid #cccccc;}
+
+	#pagebody .rightbox .list ul {padding:5px 20px;}
+	#pagebody .rightbox .list ul li {padding-left:20px;line-height:26px;background:url(news.png) no-repeat 0px 5px;}
+	#pagebody .rightbox .list ul li span {float:right;color:#ff6600;}
+	#pagebody .rightbox .pages li {text-align:center;list-style-type:none;}
+	#pagebody .rightbox .pages li strong {padding:0 10px;}
+
+	#pagebody .rightbox .content {min-height:400px;}
+	#pagebody .rightbox .content .title h2 {text-align:center;font-size:16px;font-weight:bold;padding:10px 0 5px 0;border-bottom:1px solid #eeeeee;}
+	#pagebody .rightbox .content .info {padding:5px;}
+	#pagebody .rightbox .content .info a {text-decoration:underline;color:#990099;}
+	
+	#pagebody .rightbox .selectlink {float:left;width:250px;}
+	#pagebody .rightbox .imagelink {float:left;width:440px;}
+	#pagebody .rightbox .imagelink {}
+
+#footer {width:900px;margin:10px auto;text-align:center;padding:20px 0;border-top:3px solid #eeeeee;}
